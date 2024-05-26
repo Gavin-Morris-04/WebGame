@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGames</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <h1 id="header">WebGames</h1>
+
+    <div class="button-container">
+        <label class="switch">
+            <input id="toggleButton" type="checkbox" onclick="switchBackgroundColor()">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <div class="box-container">
+        <button class="box box1" onclick="navigateToPage('tic-tac-toe.html')">Tic-Tac-Toe</button>
+        <button class="box box2" onclick="navigateToPage('dodgeball.html')">Dodgeball</button>
+        <button class="box box3" onclick="navigateToPage('dino.html')">Dino Game</button>
+        <button class="box box4" onclick="navigateToPage('page4.html')"></button>
+        <button class="box box5" onclick="navigateToPage('page5.html')"></button>
+        <button class="box box6" onclick="navigateToPage('page6.html')"></button>
+    </div>
+</body>
+</html>
