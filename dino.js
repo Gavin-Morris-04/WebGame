@@ -33,9 +33,9 @@ let cactus2Img;
 let cactus3Img;
 
 //physics
-let velocityX = -8; //cactus moving left speed
+let velocityX = -4; //cactus moving left speed
 let velocityY = 0;
-let gravity = .4;
+let gravity = .2;
 
 let gameOver = false;
 let score = 0;
