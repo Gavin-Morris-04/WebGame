@@ -4,13 +4,13 @@ function switchBackgroundColor() {
     const isBlack = htmlElement.classList.toggle('black');
 
     if (isBlack) {
-        htmlElement.style.backgroundColor = '#2E2E2E';
-        document.body.style.backgroundColor = '#2E2E2E';
-        button.textContent = 'Light';
-    } else {
         htmlElement.style.backgroundColor = 'tan';
         document.body.style.backgroundColor = 'tan';
-        button.textContent = 'Dark';
+        
+    } else {
+        htmlElement.style.backgroundColor = '#2E2E2E';
+        document.body.style.backgroundColor = '#2E2E2E';
+        
     }
 }
 
