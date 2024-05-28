@@ -20,7 +20,6 @@ h1 {
     color: black;
     text-align: center;
     margin-top: 20px;
-    animation: changeColor 5s infinite alternate;
 }
 .dark-grey h1 {
     color: white;

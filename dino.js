@@ -125,7 +125,6 @@ function placeCactus() {
         return;
     }
 
-    //place cactus
     let cactus = {
         img : null,
         x : cactusX,
@@ -134,9 +133,9 @@ function placeCactus() {
         height: cactusHeight
     }
 
-    let placeCactusChance = Math.random(); //0 - 0.9999...
+    let placeCactusChance = Math.random(); 
 
-    if (placeCactusChance > .90) { //10% you get cactus3
+    if (placeCactusChance > .90) { 
         cactus.img = cactus3Img;
         cactus.width = cactus3Width;
         cactusArray.push(cactus);
